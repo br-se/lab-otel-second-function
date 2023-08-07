@@ -1,0 +1,7 @@
+schema_version: 20180708
+name: second-function
+version: 0.0.30
+runtime: docker
+build_image: fnproject/fn-java-fdk-build:jdk17-1.0.175
+run_image: fnproject/fn-java-fdk:jre17-1.0.175
+cmd: com.example.fn.SecondFunction::handleRequest
